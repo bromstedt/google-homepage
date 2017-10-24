@@ -30,6 +30,17 @@ li {
   font-size: 80%;
 }
 
+#apps {
+  display: inline-block;
+  position: relative;
+  top: -20%;
+  transform: translateY(20%);
+  color: #666666;
+  padding-right: 20px;
+  padding-top: 5px;
+  margin-top: -7px;
+}
+
 #sign-in {
   display: inline-block;
   width: 60px;
