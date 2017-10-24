@@ -1,3 +1,8 @@
+body {
+  min-width: 950px;
+  margin-right: 0 auto;
+}
+
 .header {
   display: inline-block;
   width: 100%;
@@ -11,12 +16,11 @@
   margin: 13px 0px 63px -30px;
 }
 .right {
-  position: fixed;
-  float: left;
+  width: 83%;
   display: inline-block;
   text-align: right;
-  margin-left: 560px;
-  margin-top: 10px;
+  margin-right: 0 auto;
+  margin-top: 7px;
 }
 
 li {
@@ -28,6 +32,8 @@ li {
 
 #sign-in {
   display: inline-block;
+  width: 60px;
+  text-align: center;
   font-weight:bold;
   color: #ffffff;
   background-color: #4387fd;
@@ -35,7 +41,7 @@ li {
 }
 
 .google-logo {
-  width: 27%;
+  width: 272;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -48,7 +54,7 @@ li {
   }
 
 input {
-  width: 42%;
+  width: 480px;
   border: 1px solid #cccccc;
   border-radius: 0;
   padding: 12px 20px;
